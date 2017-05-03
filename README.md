@@ -1,6 +1,8 @@
-# ButterCMS Blog Template
+# ButterCMS Blog Theme
 
-This repository contains a responsive blog template based off the [ButterCMS blog](https://buttercms.com/blog/). It includes HTML and CSS for a blog index page and individual post page. The template uses [Bootstrap](http://getbootstrap.com/) but it can easily be swapped out. The template does not include a traditional header or footer since it is designed to be integrated into an existing website theme.
+This repository contains a responsive blog theme based off the [ButterCMS blog](https://buttercms.com/blog/). This theme uses [Bootstrap](http://getbootstrap.com/) but it can easily be swapped out. The theme does not include a traditional header or footer since it is designed to be integrated into an existing website layout containing a header and footer.
+
+[See the theme](https://buttercms.github.io/blog-template/)
 
 ### CSS
 
