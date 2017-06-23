@@ -144,7 +144,10 @@
       font-style: italic;
       font-size: 1.15em; }
   .section-blog-post .post-body {
-    margin-bottom: 2.5em; }
+    margin-bottom: 2.5em;
+    /* Responsive default image width */
+    /* Image caption */
+    /* Responsive floating */ }
     .section-blog-post .post-body h1, .section-blog-post .post-body h2, .section-blog-post .post-body h3, .section-blog-post .post-body h4, .section-blog-post .post-body h5 {
       font-weight: 500;
       margin-bottom: 1em;
@@ -155,6 +158,13 @@
         margin-bottom: 0.25em; }
     .section-blog-post .post-body pre {
       margin-bottom: 2em; }
+    .section-blog-post .post-body img {
+      max-width: 100%;
+      height: auto; }
+    .section-blog-post .post-body figcaption {
+      font-style: italic;
+      text-align: center;
+      color: #ccc; }
     .section-blog-post .post-body p {
       font-family: Georgia, Cambria, "Times New Roman", Times, serif;
       font-size: 1.25em;
@@ -162,6 +172,13 @@
       margin-bottom: 1.25em;
       font-weight: 400;
       letter-spacing: -.003em; }
+    @media only screen and (min-width: 720px) {
+      .section-blog-post .post-body .butter-float-left {
+        float: left;
+        margin: 0px 10px 10px 0px; }
+      .section-blog-post .post-body .butter-float-right {
+        float: right;
+        margin: 0px 0px 10px 10px; } }
     .section-blog-post .post-body table {
       margin-bottom: 2em; }
       .section-blog-post .post-body table th {

@@ -251,6 +251,19 @@ $breakpoint-lg: 1200px;
       margin-bottom: 2em;
     }
 
+    /* Responsive default image width */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Image caption */
+    figcaption {
+      font-style: italic;
+      text-align: center;
+      color: #ccc;
+    }
+
     p {
       font-family: Georgia, Cambria, "Times New Roman", Times, serif;
       font-size: 1.25em;
@@ -258,6 +271,19 @@ $breakpoint-lg: 1200px;
       margin-bottom: 1.25em;
       font-weight: 400;
       letter-spacing: -.003em;
+    }
+
+    /* Responsive floating */
+    @media only screen and (min-width: 720px)  {
+      .butter-float-left {
+        float: left;
+        margin: 0px 10px 10px 0px;
+      }
+
+      .butter-float-right {
+        float: right;
+        margin: 0px 0px 10px 10px;
+      }
     }
 
     table {
